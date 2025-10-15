@@ -22,13 +22,13 @@ features and predictions
 ├─ requirements.txt            # Python dependencies
 └─ README.md                   # This file
 # Setup
-# 1. Clone the repository:
+# Clone the repository:
 ```
 git clone  https://github.com/yousifamin64/Cairo-Air-Pollution-Prediction-Alert-System
 
 cd Cairo-Air-Pollution-Prediction-Alert-System
 ```
-# 2. Create and activate virtual environment:
+# Create and activate virtual environment:
 ```
 python -m venv .venv
 & .venv/Scripts/Activate.ps1      # Windows PowerShell
@@ -55,7 +55,7 @@ plotly
 ```
 uvicorn src.scripts.api_app:app --host 0.0.0.0 --port 8000
 ```
-# 2. Endpoints:
+# Endpoints:
 - `/` : Health check
 - `/predict` : Generate energy predictions from processed features
 - `/train` : Train new model and save metrics
