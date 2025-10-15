@@ -86,7 +86,7 @@ streamlit run src/gui/dashboard.py --server.port 8010
 # Download Data & models
 The datasets and trained models are too large to include in this repository.  
 You can download them from the following links:
-[Download Data $ Models]((https://mega.nz/file/i5wUSCRb#unBUJ8sNOkCYkaLEZHP5NXc9Q-8TryvCTYkGm5OovGI))
+[Download Data $ Models](https://mega.nz/file/i5wUSCRb#unBUJ8sNOkCYkaLEZHP5NXc9Q-8TryvCTYkGm5OovGI)
 
 After downloading, place the files in the following folders in your local repository:
 data/raw/
@@ -105,6 +105,8 @@ Dashboard supports dynamic chart selection and metric visualization.
 # Author
 
 Yousif Amin
+ 
  Cairo, Egypt
+
 Mechatronics Engineer & AI Developer
 
