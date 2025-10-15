@@ -16,3 +16,5 @@ env/
 data/raw/*
 data/processed/*
 models/*
+
+*.zip
