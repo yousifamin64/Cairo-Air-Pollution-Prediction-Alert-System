@@ -1,0 +1,24 @@
+
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: cairo-energy-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: cairo-energy-dashboard
+    ports:
+      - "8010:8010"
+    depends_on:
+      - api
+    environment:
+      - PYTHONUNBUFFERED=1

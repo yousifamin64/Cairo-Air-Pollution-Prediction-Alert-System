@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+*.env
+
+# VSCode
+.vscode/
+
+# Logs and temporary files
+*.log
+# Large datasets and models
+data/raw/*
+data/processed/*
+models/*
